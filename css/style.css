@@ -395,8 +395,15 @@ img {
 }
 
 .product__inner {
+  max-width: 1280px;
+}
+.product__inner .product_bcg {
   background-image: url(../../images/images/our\ collection.png);
   background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%;
+  padding: 196px 10px 0;
+  opacity: 0.6;
 }
 .product__inner .product__list {
   max-width: 1110px;
