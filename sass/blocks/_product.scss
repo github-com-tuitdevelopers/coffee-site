@@ -1,0 +1,35 @@
+.product__inner {
+    background-image: url(../../images/images/our\ collection.png);
+    background-repeat: no-repeat;
+    .product__list {
+        max-width: 1110px;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_etam {
+            &-img {
+                max-width: 255px;
+                max-height: 193px;
+                margin-bottom: 72px;
+            }
+            &--writing {
+                max-width: 255px;
+                text-align: center;
+                &-title {
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #333D4B;
+                    margin-bottom: 24px;
+                }
+                &-text {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #333D4B;
+                }
+            }
+        }
+    }
+}
