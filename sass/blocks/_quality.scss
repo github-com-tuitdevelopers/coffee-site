@@ -1,0 +1,221 @@
+.quality {
+  margin-bottom: 200px;
+
+  &__inner {
+    background-image: url(../../images/quality-back.png);
+    background-repeat: no-repeat;
+    padding: 100px 84px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .quality-info {
+      width: 540px;
+      text-align: center;
+      margin-bottom: 86px;
+
+      &__title {
+        font-family: "Fraunces 9pt";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #fefcf7;
+        margin-bottom: 32px;
+      }
+
+      &__subtitle {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #fefcf7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+      }
+    }
+
+    .quality-cards {
+      display: grid;
+      column-gap: 30px;
+      grid-template-columns: repeat(3, 1fr);
+
+      .quality-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 72px 48px 48px;
+        list-style: none;
+        background: #0e8784;
+        border-radius: 8px;
+
+        & img {
+        
+            width: 56px;
+            height: 56px;
+        }
+
+        &__subtitle,
+        &__title {
+            text-align: center;
+          color: #fefcf7;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:768px) {
+    
+    /* Quality section */
+
+.quality {
+    margin-bottom: 144px;
+    
+
+
+    &__inner {
+        background-image: url(../../images/quality-back2.png);
+        // background-repeat: no-repeat;
+        padding: 56px 57px;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+    
+        .quality-info {
+        //   width: 540px;
+        //   text-align: center;
+          margin-bottom: 70px;
+    
+          &__title {
+            // font-family: "Fraunces 9pt";
+            // font-style: normal;
+            // font-weight: 900;
+            font-size: 32px;
+            line-height: 48px;
+            // color: #fefcf7;
+            margin-bottom: 24px;
+          }
+    
+          &__subtitle {
+            // font-family: "Barlow";
+            // font-style: normal;
+            // font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            // color: #fefcf7;
+            // mix-blend-mode: normal;
+            // opacity: 0.8;
+          }
+        }
+    
+        .quality-cards {
+            // align-items: center;
+        //   display: grid;
+          column-gap: 0;
+          row-gap: 24px;
+          grid-template-columns: none;
+          grid-template-rows: repeat(3, 180px);
+    
+          .quality-card {
+            width: 573px;
+            // display: flex;
+            flex-direction: row;
+            // align-items: center;
+            padding: 71px 41px 48px;
+            // list-style: none;
+            // background: #0e8784;
+            // border-radius: 8px;
+    
+            &__subtitle,
+            &__title {
+                text-align: left;
+                margin-left: 55px;
+                // color: #fefcf7;
+            }
+          }
+        }
+      }
+    
+
+  }
+  
+  
+  /* // Quality section */
+  
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:375px) {
+    
+    /* Quality section */
+
+.quality {
+    margin-bottom: 120px;
+    
+
+
+    &__inner {
+        background-image: url(../../images/quality-back3.png);
+       
+        padding: 64px 24px;
+       
+    
+        .quality-info {
+      
+          margin-bottom: 64px;
+    
+          &__title {
+            
+            font-size: 28px;
+            line-height: 28px;
+          
+          }
+    
+          &__subtitle {
+            width: 279px;
+            text-align: center;
+           
+          }
+        }
+    
+        .quality-cards {
+          grid-template-rows: repeat(3, 382px);
+    
+          .quality-card {
+            width: 279px;
+            // display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 72px 33px 51px;
+
+
+            & img {
+                margin-bottom: 56px;
+                width: 71px;
+                height: 72px;
+            }
+    
+            &__subtitle,
+            &__title {
+                text-align: center;
+                margin-left: 0;
+                margin-top: 24px;
+            }
+          }
+        }
+      }
+    
+
+  }
+  
+  
+  /* // Quality section */
+  
+}
