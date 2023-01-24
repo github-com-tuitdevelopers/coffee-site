@@ -5,7 +5,7 @@
     justify-content: $justify;
 }
 
-@mixin bcgIMG($repeat, $position, $url) {
+@mixin bcgIMG($url, $repeat, $position) {
     background-image: url($url);
     background-repeat: $repeat;
     background-position: $position;
